@@ -49,15 +49,17 @@ h2 {
     width: 980px;
     margin: 0px auto;
 }
-.paragrafo .destaque-azul {
+.paragrafo .texto-azul {
     font-weight: bold;
     color: #078b9f;
 }
 .servicos {
+    padding: 15px 0px;
+    text-align: center;
+}
+.destaque-secao {
     background-color: blue;
-    padding: 15px;
     color: white;
-
 }
 h3 {
     font-size: 28px;
@@ -66,10 +68,14 @@ h3 {
     line-height: 30px;
     text-align: center;
     font-size: 22px;
-       
+
 }
-.servicos li {
+.servicos .lista-nao-ordenada {
     margin: 20px auto;
+    border: 5px #078b9f solid;
+}
+.servicos .lista-item {
     text-align: left;
-    border: 5px #078b9f solid
+    border: solid black 5px;
+    margin: 10px auto;
 }
