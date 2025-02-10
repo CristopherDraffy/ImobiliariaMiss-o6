@@ -1,0 +1,75 @@
+body {
+    font-family: Tahoma;
+    margin: 0;
+}
+.cabeçalho {
+    text-align: center;
+    background-color: #72d8e8;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    
+}
+.cabeçalho img {
+    width: 150px;
+    margin-top: 25px;
+}
+.banner {
+    text-align: center;
+}
+.banner img{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.secao {
+    margin: 30px auto;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 5px;
+    margin-top: 25px;
+    text-align: center;
+}
+h2 {
+    margin-top: 5px;
+    font-weight: normal;
+    color: #078b9f;
+    font-size: 24px;
+    text-align: center;
+}
+.secao-sobre {
+    margin: 20px auto;
+    text-align: center;
+}
+.imagem-imobiliaria {
+    width: 450px;
+}
+.paragrafo {
+    font-size: 20px;
+    text-align: justify;
+    width: 980px;
+    margin: 0px auto;
+}
+.paragrafo .destaque-azul {
+    font-weight: bold;
+    color: #078b9f;
+}
+.servicos {
+    background-color: blue;
+    padding: 15px;
+    color: white;
+
+}
+h3 {
+    font-size: 28px;
+}
+.servicos p {
+    line-height: 30px;
+    text-align: center;
+    font-size: 22px;
+       
+}
+.servicos li {
+    margin: 20px auto;
+    text-align: left;
+    border: 5px #078b9f solid
+}
