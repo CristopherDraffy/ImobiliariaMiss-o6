@@ -1,0 +1,1 @@
+Unico problema é referente á aba SERVIÇOS onde as tag <ul> ou <li> não permanece com ponto de indicação centralizado junto ao texto e permanecedo apenas na parte lateral(não acompanhada com texto qu estaria centralizado)
