@@ -2,6 +2,19 @@ body {
     font-family: Tahoma;
     margin: 0;
 }
+.texto-azul {
+    font-weight: bold;
+    color: #078b9f;
+}
+.texto-amarelo {
+    font-weight: bold;
+    color: yellow;
+}
+.secao {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 .cabeçalho {
     text-align: center;
     background-color: #72d8e8;
@@ -13,17 +26,13 @@ body {
     width: 150px;
     margin-top: 25px;
 }
-.banner {
-    text-align: center;
-}
+
+
 .banner img{
     margin-top: 10px;
     margin-bottom: 50px;
 }
-.secao {
-    margin: 30px auto;
-    text-align: center;
-}
+
 h1 {
     margin-bottom: 5px;
     margin-top: 25px;
@@ -36,46 +45,73 @@ h2 {
     font-size: 24px;
     text-align: center;
 }
-.secao-sobre {
-    margin: 20px auto;
-    text-align: center;
-}
-.imagem-imobiliaria {
+.imagem {
     width: 450px;
 }
+.secao-sobre .paragrafo{
+    width: 980px;
+}
 .paragrafo {
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     width: 980px;
-    margin: 0px auto;
+    line-height: 28px;
+    margin: 10px auto;
 }
-.paragrafo .texto-azul {
-    font-weight: bold;
-    color: #078b9f;
-}
+
 .servicos {
-    padding: 15px 0px;
+    padding: 25px 0px;
     text-align: center;
+   
 }
 .destaque-secao {
-    background-color: blue;
+    background-color: #2758ff;
     color: white;
 }
 h3 {
     font-size: 28px;
 }
-.servicos p {
-    line-height: 30px;
+.servicos .paragrafo {
+    line-height: 42px;
     text-align: center;
     font-size: 22px;
-
+    width: 700px;
 }
 .servicos .lista-nao-ordenada {
-    margin: 20px auto;
-    border: 5px #078b9f solid;
+    margin: 53px auto 42px;
+    width: 150px;
+    font-size: 20px;
 }
 .servicos .lista-item {
     text-align: left;
-    border: solid black 5px;
     margin: 10px auto;
 }
+.secao-corretores .paragrafo {
+    width: 980px;
+    margin-bottom: 50px;
+}
+
+
+.lista-contato {
+    list-style: none;
+    margin: 50px auto;
+    width: 300px;
+}
+.lista-contato li {
+    text-align: center;
+    margin-top: 20px;
+}
+.lista-contato a {
+    color: #2758ff;
+    font-size: 18px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.paragrafo-contato {
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
